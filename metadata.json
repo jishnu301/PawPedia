@@ -1,0 +1,5 @@
+{
+  "name": "PawPedia: Dog Breed Explorer",
+  "description": "An interactive web app to explore, compare, and discover dog breeds. View details, compare breeds side-by-side, and get AI-powered recommendations.",
+  "requestFramePermissions": []
+}

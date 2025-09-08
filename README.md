@@ -1,40 +1,20 @@
-# 🐾 PawPedia
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-**PawPedia** is a responsive and interactive web application designed to help users explore dog breeds, compare their traits, and discover the perfect canine companion. Whether you're a first-time dog owner or a lifelong enthusiast, PawPedia offers breed insights, care tips, and a personalized AI-powered selector to guide your journey.
+# Run and deploy your AI Studio app
 
----
+This contains everything you need to run your app locally.
 
-## 🚀 Features
+View your app in AI Studio: https://ai.studio/apps/drive/1SIXiVonLYtTltxFrfXOJ6WtNp3Zr2pti
 
-- 🐶 **Breed Explorer**  
-  Browse detailed profiles of popular dog breeds with images, traits, and descriptions.
+## Run Locally
 
-- 🔍 **Compare Breeds**  
-  Select two breeds and view a side-by-side comparison of their characteristics.
+**Prerequisites:**  Node.js
 
-- 🤖 **AI Breed Selector**  
-  Answer a few lifestyle questions and get matched with your ideal dog breed.
 
-- 🧼 **PupCare**  
-  Access breed-specific nutrition and grooming tips to keep your dog healthy and happy.
-
-- 🎨 **Modern UI**  
-  Clean, responsive design with a welcoming banner and intuitive navigation.
-
----
-
-## 🧰 Tech Stack
-
-- **HTML**  
-- **CSS**  
-- **JavaScript**  
-- **Dog CEO API** – for breed images  
-- **Static JSON** – for breed traits, nutrition, and grooming data
-
----
-
-## 📦 Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/pawpedia.git
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
